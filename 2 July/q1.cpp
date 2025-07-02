@@ -6,7 +6,6 @@ int main() {
     cin >> day >> bill;
 
     int lastDigitOfDay = day % 10;
-
     if (bill % day == 0 || bill % 10 == lastDigitOfDay)
         cout << "yes";
     else
